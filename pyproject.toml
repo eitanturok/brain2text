@@ -8,5 +8,6 @@ dependencies = []
 
 [dependency-groups]
 dev = [
+    "gpustat>=1.1.1",
     "icecream>=2.1.3",
 ]
