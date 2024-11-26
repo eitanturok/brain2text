@@ -11,7 +11,7 @@
         "program": "semantic-decoding/decoding/train_EM.py",
         "args": [
           "--subject", "01",
-          "--gpt", "percieved",
+          "--gpt", "perceived",
         ],
       }
     ]
