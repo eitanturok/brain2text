@@ -4,12 +4,15 @@
         "name": "decode",
         "type": "debugpy",
         "request": "launch",
-        "python": "/Users/eitanturok/mambaforge/envs/tinygrad/bin/python",
         "justMyCode": false,
-        "cwd": "/Users/eitanturok/Desktop/tinygrad",
-        "program": "test/test_ops.py",
         "console": "integratedTerminal",
-        "args": ["TestOps.test_small_cumprod"],
+        "python": "/home/ethantu/workspace/brain2text/.venv/bin/python",
+        "cwd": "/home/ethantu/workspace/brain2text",
+        "program": "semantic-decoding/train_EM.py",
+        "args": [
+          "--subject", "01",
+          "--gpt", "percieved",
+        ],
       }
     ]
   }
