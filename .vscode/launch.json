@@ -8,7 +8,7 @@
         "console": "integratedTerminal",
         "python": "/home/ethantu/workspace/brain2text/.venv/bin/python",
         "cwd": "/home/ethantu/workspace/brain2text",
-        "program": "semantic-decoding/train_EM.py",
+        "program": "semantic-decoding/decoding/train_EM.py",
         "args": [
           "--subject", "01",
           "--gpt", "percieved",

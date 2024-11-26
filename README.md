@@ -4,9 +4,13 @@ I can read your mind!!!
 
 To setup
 ```sh
-git clone https://github.com/eitanturok/brain2text.git
+# clone repos and symlink
 git clone https://github.com/eitanturok/semantic-decoding.git
-cd semantic-decoding
-ln -s . ../brain2text/semantic-decoding
-cd ../brain2text
+git clone https://github.com/eitanturok/brain2text.git
+cd brain2text
+ln -s ../semantic-decoding .
+
+# virtual environment
+uv venv --python 3.12
+source .venv/bin/activate
 ```
