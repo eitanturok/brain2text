@@ -1,0 +1,15 @@
+{
+    "configurations": [
+      {
+        "name": "decode",
+        "type": "debugpy",
+        "request": "launch",
+        "python": "/Users/eitanturok/mambaforge/envs/tinygrad/bin/python",
+        "justMyCode": false,
+        "cwd": "/Users/eitanturok/Desktop/tinygrad",
+        "program": "test/test_ops.py",
+        "console": "integratedTerminal",
+        "args": ["TestOps.test_small_cumprod"],
+      }
+    ]
+  }
