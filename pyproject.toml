@@ -16,6 +16,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "awscli>=1.36.10",
     "gpustat>=1.1.1",
     "icecream>=2.1.3",
 ]
