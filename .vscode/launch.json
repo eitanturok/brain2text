@@ -8,10 +8,11 @@
         "console": "integratedTerminal",
         "python": "/home/ethantu/workspace/brain2text/.venv/bin/python",
         "cwd": "/home/ethantu/workspace/brain2text",
-        "program": "semantic-decoding/decoding/train_EM.py",
+        "program": "semantic-decoding/decoding/run_decoder.py",
         "args": [
           "--subject", "01",
-          "--gpt", "perceived",
+          "--experiment", "perceived",
+          "--task", "adollshouse"
         ],
       }
     ]

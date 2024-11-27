@@ -2,6 +2,7 @@
 semantic-decoding
 data
 ds003020-download
+models
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
