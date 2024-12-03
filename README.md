@@ -44,7 +44,7 @@ unzip data/3go1g4gcdar2cntjit2knz5jwr3mvxwe.zip -d data
 rm data/3go1g4gcdar2cntjit2knz5jwr3mvxwe.zip
 rm -rf data/__MACOSX
 ```
-Then download the actual `(text, fmri)` train dataset (500GB) from [OpenNeuro](https://openneuro.org/datasets/ds004510/):
+Then download the actual `(text, fmri)` train dataset (500GB) from [OpenNeuro](https://openneuro.org/datasets/ds003020/):
 ```sh
 aws s3 sync --no-sign-request s3://openneuro.org/ds003020 data/ds003020-download/
 cp data/ds003020-download/derivative/TextGrids/* data/data_train/train_stimulus/
@@ -67,7 +67,11 @@ rm -rf data/__MACOSX
 Then download the actual `(text, fmri)` test dataset from [OpenNeuro](https://openneuro.org/datasets/ds004510/):
 ```sh
 aws s3 sync --no-sign-request s3://openneuro.org/ds004510 ds004510-download/
-```sh
+cp -r data/ds004510-download/derivative/preprocessed_data/UTS01/* data/data_test/test_response/01
+cp -r data/ds004510-download/derivative/preprocessed_data/UTS02/* data/data_test/test_response/02
+cp -r data/ds004510-download/derivative/preprocessed_data/UTS03/* data/data_test/test_response/03
+cp -r data/ds004510-download/derivative/TextGrids/* data/data_test/test_stimulus
+```
 
 ## Encoder Model & Word Rate Model
 

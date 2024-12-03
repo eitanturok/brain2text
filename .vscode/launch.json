@@ -11,8 +11,8 @@
         "program": "semantic-decoding/decoding/run_decoder.py",
         "args": [
           "--subject", "01",
-          "--experiment", "perceived",
-          "--task", "adollshouse"
+          "--experiment", "perceived_speech",
+          "--task", "wheretheressmoke"
         ],
       }
     ]
