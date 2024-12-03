@@ -5,13 +5,17 @@ description = "I can read your mind!!!"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "bert-score>=0.3.13",
+    "evaluate>=0.4.3",
     "h5py>=3.12.1",
+    "jiwer>=3.0.5",
     "matplotlib>=3.9.2",
     "nltk>=3.9.1",
     "numpy>=2.1.3",
     "scipy>=1.14.1",
     "tables>=3.10.1",
     "torch>=2.5.1",
+    "tqdm>=4.67.1",
     "transformers>=4.46.3",
 ]
 

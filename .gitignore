@@ -1,8 +1,9 @@
 # Project specific
-semantic-decoding
 data
-ds003020-download
 models
+results
+scores
+semantic-decoding
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

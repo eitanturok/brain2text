@@ -1,19 +1,35 @@
 {
-    "configurations": [
-      {
-        "name": "decode",
-        "type": "debugpy",
-        "request": "launch",
-        "justMyCode": false,
-        "console": "integratedTerminal",
-        "python": "/home/ethantu/workspace/brain2text/.venv/bin/python",
-        "cwd": "/home/ethantu/workspace/brain2text",
-        "program": "semantic-decoding/decoding/run_decoder.py",
-        "args": [
-          "--subject", "01",
-          "--experiment", "perceived_speech",
-          "--task", "wheretheressmoke"
-        ],
-      }
-    ]
-  }
+  "configurations": [
+    {
+      "name": "decode",
+      "type": "debugpy",
+      "request": "launch",
+      "justMyCode": false,
+      "console": "integratedTerminal",
+      "python": "/home/ethantu/workspace/brain2text/.venv/bin/python",
+      "cwd": "/home/ethantu/workspace/brain2text",
+      "program": "semantic-decoding/decoding/run_decoder.py",
+      "args": [
+        "--subject", "01",
+        "--experiment", "perceived_speech",
+        "--task", "wheretheressmoke"
+      ],
+    },
+    {
+      "name": "eval",
+      "type": "debugpy",
+      "request": "launch",
+      "justMyCode": false,
+      "console": "integratedTerminal",
+      "python": "/home/ethantu/workspace/brain2text/.venv/bin/python",
+      "cwd": "/home/ethantu/workspace/brain2text",
+      "program": "semantic-decoding/decoding/evaluate_predictions.py",
+      "args": [
+        "--subject", "01",
+        "--experiment", "perceived_speech",
+        "--task", "wheretheressmoke",
+        "--null", "0"
+      ],
+    }
+  ]
+}
